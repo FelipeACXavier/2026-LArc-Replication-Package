@@ -107,7 +107,7 @@ docker run -it \
     - The navigation package for simulation: 
     
     ```bash
-    cd ros2_ws && source install/setup.bash && ros2 launch turtlebot3_navigation2 navigation2.launch.py use_sim_time:=True map:=./turtlebot3_world_map.yaml
+    cd ros2_ws && source install/setup.bash && ros2 launch turtlebot3_navigation2 navigation2.launch.py use_sim_time:=true map:=./turtlebot3_world_map.yaml
     ````
 
     - The generated orchestration node: 
